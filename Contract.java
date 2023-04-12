@@ -1,3 +1,6 @@
+/**Creates the interface for Contract
+ * @return calls methods
+ */
 public interface Contract {
 
     void grab(String item);
@@ -11,4 +14,4 @@ public interface Contract {
     void rest();
     void undo();
 
-}
+    }
